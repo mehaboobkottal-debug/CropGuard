@@ -1,0 +1,7 @@
+BATCH_SIZE = 32
+IMAGE_SIZE = 224
+LEARNING_RATE = 0.001
+EPOCHS = 5
+
+DATA_PATH = "data/raw"
+MODEL_PATH = "models"
