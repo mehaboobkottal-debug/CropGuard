@@ -1,8 +1,3 @@
-import sys
-import os
-
-sys.path.append(os.path.abspath("."))
-
 from src.data.dataset import load_dataset
 
 dataset = load_dataset("data/raw")
