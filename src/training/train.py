@@ -1,3 +1,8 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath("."))
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
